@@ -8,10 +8,6 @@ class LoadUrlInApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('In-App Webview'),
-      ),
       body: WebView(
         initialUrl: url,
         javascriptMode: JavascriptMode.unrestricted, // Adjust as needed
